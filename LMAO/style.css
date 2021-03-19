@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  -webkit-box-shadow: 10px 10px 24px -17px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 24px -17px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 24px -17px rgba(0,0,0,0.75);
+}
+
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: blue;
+}
+h3{
+  margin-top: -33px;
+  margin-left: 90px;
+}
+.attr img{
+  width: 400px;
+  float: right;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+.content{
+  float: left;
+  margin-top: 250px;
+}
+.content h3{
+  font-family: cursive;
+  font-size: 30px;
+}
+.directories{
+  margin-left: 150px;
+}
+.directories button{
+  background:#f06030;
+  padding:17px;
+  cursor:pointer;
+  border-radius: 50px;
+  border:none;
+  font-size: 16px;
+  margin-left: 10px;
+}
